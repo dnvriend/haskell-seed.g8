@@ -36,7 +36,44 @@ cabal install easyplot
 ```
 
 ## Learning Haskell Resources
-The best resource when just starting with Haskell is [Learn you a Haskell for great good](http://learnyouahaskell.com/chapters). Another great place to learn is [Happy Learn Haskell Tutorial](http://www.happylearnhaskelltutorial.com/contents.html) and when you are done with those books you should take a look at more serious books like [Programming in Haskell 2nd Edition by Graham Hutton](https://www.amazon.com/Programming-Haskell-Graham-Hutton/dp/1316626229/ref=dp_ob_image_bk), [Learn Haskell by Will Kurt Manning EAP](https://www.manning.com/books/learn-haskell) and [Real World Haskell by Brian O' Sullivan](https://www.amazon.com/Real-World-Haskell-Bryan-OSullivan/dp/0596514980/ref=sr_1_1?s=books&ie=UTF8&qid=1481042542&sr=1-1&keywords=real+world+haskell). Of course you should take a look at [The Haskell Wiki - Tutorials section](https://wiki.haskell.org/Tutorials). The [Haskell Wiki](https://wiki.haskell.org/Haskell) contains everything for the [Haskell Programming Language](https://www.haskell.org/platform/). It is even possible to interoperate with Java by means of [inline-java](http://blog.tweag.io/posts/2016-10-17-inline-java.html).
+The best resource when just starting with Haskell is [Learn you a Haskell for great good](http://learnyouahaskell.com/chapters).
+Another great place to learn is [Happy Learn Haskell Tutorial](http://www.happylearnhaskelltutorial.com/contents.html)
+and when you are done with those books you should take a look at more serious books like
+[Programming in Haskell 2nd Edition by Graham Hutton](https://www.amazon.com/Programming-Haskell-Graham-Hutton/dp/1316626229/ref=dp_ob_image_bk),
+[Learn Haskell by Will Kurt Manning EAP](https://www.manning.com/books/learn-haskell) and
+[Real World Haskell by Brian O' Sullivan](https://www.amazon.com/Real-World-Haskell-Bryan-OSullivan/dp/0596514980/ref=sr_1_1?s=books&ie=UTF8&qid=1481042542&sr=1-1&keywords=real+world+haskell).
+
+Of course you should take a look at [The Haskell Wiki - Tutorials section](https://wiki.haskell.org/Tutorials).
+The [Haskell Wiki](https://wiki.haskell.org/Haskell) contains everything for the
+[Haskell Programming Language](https://www.haskell.org/platform/). It is even possible to interoperate
+with Java by means of [inline-java](http://blog.tweag.io/posts/2016-10-17-inline-java.html).
+
+## More resources
+
+- [Haskell Wiki - Main page](https://wiki.haskell.org/Haskell)
+- [Haskell Wiki - Applications and Libraries](https://wiki.haskell.org/Applications_and_libraries)
+- [The Haskell Wiki - Tutorials](https://wiki.haskell.org/Tutorials)
+- [Haskell Programming Language](https://www.haskell.org/platform/)
+- [Haskell Cabal](https://www.haskell.org/cabal/)
+
+## Available Libraries
+The Haskell runtime comes out of the box with a set of libraries as defined in [The Haskell 2010 Language and library specification](https://wiki.haskell.org/Language_and_library_specification)
+that it must support and is called the [The Haskell 2010 Libraries](https://www.haskell.org/onlinereport/haskell2010/haskellpa2.html),
+including the [Prelude](https://wiki.haskell.org/Prelude) which is a module that contains a small set of standard definitions and is
+included automatically into all Haskell modules. Scala has something very similar called the [Predef](http://www.scala-lang.org/api/current/scala/Predef$.html)
+that provides definitions that are accessible in all Scala compilation units without explicit qualification.
+
+If you are using the Haskell GHC distribution (you do having installed Haskell GHC using brew), it comes with the
+[Haskell Platform Libraries](https://www.haskell.org/platform/contents.html#packages-and-documentation) and contains
+a lot of extra functionality like `Data.Monoid` and many more like the [Monad Transformer Library - MTL](http://hackage.haskell.org/package/mtl)
+but also [QuickCheck](http://hackage.haskell.org/package/QuickCheck), you may know [ScalaCheck](https://www.scalacheck.org/), well that
+has been inspired by [QuickCheck](http://hackage.haskell.org/package/QuickCheck).
+
+You should take a look at which libraries the [Haskell Platform Libraries](https://www.haskell.org/platform/contents.html#packages-and-documentation)
+and click around, get to know the user interface and how to search for libraries and documentation for example, the `Data.Monoid` module
+exists in the [base](http://hackage.haskell.org/package/base) package and the documentation of [base is here](http://hackage.haskell.org/package/base-4.9.0.0) and
+[the HaskellDoc of Data.Monoid is here](http://hackage.haskell.org/package/base-4.9.0.0/docs/Data-Monoid.html) so you should get
+used to this new platform and reading the docs.
 
 ## Example
 Create two files `Main.hs` and `PatternMatching.hs` in `src/main/haskell` and put the following code in it:
