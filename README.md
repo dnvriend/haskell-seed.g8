@@ -48,8 +48,9 @@ The [Haskell Wiki](https://wiki.haskell.org/Haskell) contains everything for the
 [Haskell Programming Language](https://www.haskell.org/platform/). It is even possible to interoperate
 with Java by means of [inline-java](http://blog.tweag.io/posts/2016-10-17-inline-java.html).
 
-## More resources
+## More Resources
 
+- [Haskell Users Guide](https://downloads.haskell.org/~ghc/latest/docs/users_guide.pdf)
 - [Haskell Wiki - Main page](https://wiki.haskell.org/Haskell)
 - [Haskell Wiki - Applications and Libraries](https://wiki.haskell.org/Applications_and_libraries)
 - [The Haskell Wiki - Tutorials](https://wiki.haskell.org/Tutorials)
