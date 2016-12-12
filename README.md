@@ -43,16 +43,18 @@ and when you are done with those books you should take a look at more serious bo
 [Learn Haskell by Will Kurt Manning EAP](https://www.manning.com/books/learn-haskell) and
 [Real World Haskell by Brian O' Sullivan](https://www.amazon.com/Real-World-Haskell-Bryan-OSullivan/dp/0596514980/ref=sr_1_1?s=books&ie=UTF8&qid=1481042542&sr=1-1&keywords=real+world+haskell).
 
-Of course you should take a look at [The Haskell Wiki - Tutorials section](https://wiki.haskell.org/Tutorials).
-The [Haskell Wiki](https://wiki.haskell.org/Haskell) contains everything for the
-[Haskell Programming Language](https://www.haskell.org/platform/). It is even possible to interoperate
-with Java by means of [inline-java](http://blog.tweag.io/posts/2016-10-17-inline-java.html).
+Of course you should take a look at [The Haskell Wiki - Tutorials section](https://wiki.haskell.org/Tutorials) and
+[The Haskell Wiki - Learning Haskell](https://wiki.haskell.org/Learning_Haskell). The [Haskell Wiki](https://wiki.haskell.org/Haskell)
+contains everything for the [Haskell Programming Language](https://www.haskell.org/platform/).
+
+It is even possible to interoperate with Java by means of [inline-java](http://blog.tweag.io/posts/2016-10-17-inline-java.html).
 
 ## More Resources
 
 - [Haskell Users Guide](https://downloads.haskell.org/~ghc/latest/docs/users_guide.pdf)
 - [Haskell Wiki - Main page](https://wiki.haskell.org/Haskell)
 - [Haskell Wiki - Applications and Libraries](https://wiki.haskell.org/Applications_and_libraries)
+- [Haskell Wiki - Learning Haskell](https://wiki.haskell.org/Learning_Haskell)
 - [The Haskell Wiki - Tutorials](https://wiki.haskell.org/Tutorials)
 - [Haskell Programming Language](https://www.haskell.org/platform/)
 - [Haskell Cabal](https://www.haskell.org/cabal/)
