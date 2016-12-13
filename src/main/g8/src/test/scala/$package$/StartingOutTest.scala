@@ -1,4 +1,4 @@
-package $package
+package $package$
 
 class StartingOutTest extends TestSpec {
   it should "add" in {
