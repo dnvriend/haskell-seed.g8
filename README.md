@@ -11,6 +11,22 @@ You need at least sbt v0.13.13 and then type:
 sbt new dnvriend/haskell-seed.g8
 ```
 
+You now have a cloned project, please enter the new directory and you can type:
+
+```bash
+# to test (both Haskell and Scala)
+sbt test
+
+# to compile (both Haskell and Scala)
+sbt compile
+
+# to run (both Haskell and Scala)
+sbt run
+```
+
+Please put Haskell test files in `src/test/haskell` and Haskell source files in `src/main/haskell`.
+
+
 - Install the [IntelliJ plugin for Haskell](https://plugins.jetbrains.com/plugin/7453)
 - Put your files in `src/main/haskell`
 - Be sure to start out with a `Main.hs` file
